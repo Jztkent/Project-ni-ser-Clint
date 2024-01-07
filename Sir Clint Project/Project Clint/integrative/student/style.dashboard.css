@@ -1,0 +1,215 @@
+/* Reset some default styles */
+
+
+body,
+h1,
+h2,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+/* Global styles */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+header {
+  color: black;
+  position: absolute;
+  top: 5%;
+  left: 18%;
+  transform: translate(-50% -50%);
+}
+
+.container {
+  display: flex;
+}
+
+/* Sidebar styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  background-color: black;
+  color: #fff;
+  padding: 40px;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+h1{
+  font-size: 40px;
+  text-align: left;
+  border: 2px solid #3498db;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 50px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+}
+a{
+  display: inline-block;
+  color: transparent;
+  text-decoration: none;
+  background-color: red;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 10px;
+
+}
+a:hover {
+  background-color: #2980b9;
+  color: white;
+}
+
+/* Content styles */
+
+.content {
+  margin-left: 250px;
+  flex-grow: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.course-content {
+  display: flex;
+  flex-direction: row; /* Change flex direction to row */
+  align-items: start;
+  margin-top: 20px; /* Add some top margin for separation */
+}
+
+.f5{
+  flex-direction: row; 
+
+}
+
+.course-content a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px; /* Add some right margin for spacing between buttons */
+  color: #fff; /* Text color */
+  background-color: #3498db; /* Button background color */
+  text-decoration: none;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for background color changes */
+}
+
+.course-content a:hover {
+  background-color: #2980b9; /* Darker background color on hover */
+}
+/* .c1 {
+  position: absolute;
+  top: 10%;
+  left: 18%;
+  transform: translate(-50% -50%);
+} */
+.table-container {
+  text-align: center;
+  margin: auto;
+}
+
+.t1 {
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+}
+
+.t1, .t1 th, .t1 td {
+  border: 1px solid black;
+  padding: 8px;
+}
+  .table-container{ 
+        margin: auto;
+        width: 100%;
+        padding: 9px;
+        overflow-x: auto;
+    }
+
+    .styled-table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .styled-table th, .styled-table td {
+        border: 1px solid #ddd;
+        padding: 7px;
+        text-align: left;
+    }
+
+    .styled-table th {
+        background-color: #f2f2f2;
+    }
+/* Responsive styles */
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px auto;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold; /* Optionally, make labels bold */
+}
+select {
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 20px; /* Increased margin to space out select elements */
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  box-sizing: border-box;
+}

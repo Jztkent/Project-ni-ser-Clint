@@ -1,0 +1,73 @@
+body {
+    background-image: url("background21.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form styling */
+form {
+    width: 400px;
+    height: 950px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading styling */
+h1 {
+    color: #333;
+}
+
+/* Margin for form elements */
+div {
+    margin: 10px 0;
+}
+
+/* Input styling */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-top: 5px;
+}
+
+/* Links styling */
+.links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Anchor (link) styling */
+a {
+    text-decoration: none;
+    color: #0077b6;
+    border: none;
+}
+
+/* Button styling */
+button {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px 150px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #005f8d;
+}
